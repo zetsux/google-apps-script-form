@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div id="loading-overlay">
+      <div id="loading-spinner"></div>
+    </div>
+
+    <section id="contact">
+      <h1 class="section-header">Contact Me!</h1>
+
+      <div class="contact-wrapper">
+        <!-- Left contact page -->
+
+        <form
+          method="post"
+          action=""
+          id="contact-form"
+          name="contact-form"
+          class="form-horizontal"
+          role="form"
+        >
+          <div class="form-group">
+            <div class="col-sm-12">
+              <input
+                type="text"
+                class="form-control"
+                id="name"
+                placeholder="NAME"
+                name="name"
+                value=""
+                required
+              />
+            </div>
+          </div>
+
+          <div class="form-group">
+            <div class="col-sm-12">
+              <input
+                type="email"
+                class="form-control"
+                id="email"
+                placeholder="EMAIL"
+                name="email"
+                value=""
+                required
+              />
+            </div>
+          </div>
+
+          <textarea
+            class="form-control"
+            rows="10"
+            placeholder="MESSAGE"
+            name="message"
+            required
+          ></textarea>
+
+          <button class="btn btn-primary send-button" id="submit" type="submit" value="Submit">
+            <div class="alt-send-button">
+              <i class="fa fa-paper-plane"></i><span class="send-text">SEND</span>
+            </div>
+          </button>
+        </form>
+
+        <!-- Left contact page -->
+
+        <div class="direct-contact-container">
+          <ul class="contact-list">
+            <li class="list-item">
+              <span class="contact-icon">📍</span
+              ><span class="contact-text place">Surabaya, Indonesia</span>
+            </li>
+
+            <li class="list-item">
+              <span class="contact-icon">☎️</span
+              ><span class="contact-text phone"
+                ><a href="tel:62-851-5123-4567" title="Give me a call">(62) 851-5123-4567</a></span
+              >
+            </li>
+
+            <li class="list-item">
+              <span class="contact-icon">✉️</span
+              ><span class="contact-text gmail"
+                ><a href="mailto:myemail@gmail.com" title="Send me an email"
+                  >myemail@gmail.com</a
+                ></span
+              >
+            </li>
+          </ul>
+
+          <hr />
+
+          <ul class="social-media-list">
+            <li>
+              <a href="#" target="_blank" class="contact-icon">🌐</a>
+            </li>
+            <li>
+              <a href="#" target="_blank" class="contact-icon">🔗</a>
+            </li>
+            <li>
+              <a href="#" target="_blank" class="contact-icon">🐦</a>
+            </li>
+            <li>
+              <a href="#" target="_blank" class="contact-icon">🏆</a>
+            </li>
+          </ul>
+
+          <hr />
+
+          <div class="copyright">&copy; ALL OF THE RIGHTS RESERVED</div>
+        </div>
+      </div>
+    </section>
+    <script src="script.js"></script>
+  </body>
+</html>
